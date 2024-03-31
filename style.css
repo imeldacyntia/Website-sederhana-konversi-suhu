@@ -1,0 +1,74 @@
+body {
+  font-family: 'Montserrat', sans-serif; /* Menggunakan font Montserrat */
+  background: linear-gradient(135deg, #cfdfff, #87a8df);
+  color: #333;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/bgg.png');
+}
+h1 {
+  color: #153677; /* Ubah warna teks */
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  background-color: #f1f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 480px;
+  margin: 20px auto;
+  transition: transform 0.3s; /* Tambah transisi */
+}
+form:hover {
+  transform: translateY(-5px); /* Efek naik saat dihover */
+}
+label {
+  display: block;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  color: #333;
+}
+#input_suhu {
+  margin-left: 20px;
+}
+input,
+select,
+button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd; /* Tambah border */
+  border-radius: 6px;
+  background-color: #f9f9f9; /* Ubah warna background input */
+}
+p {
+  display: block;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  color: #333;
+}
+button {
+  background-color: #153677; /* Ubah warna tombol */
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Tambah transisi */
+}
+button:hover {
+  background-color: #02102c; /* Ubah warna tombol saat dihover */
+}
+div input[type='text'] {
+  background-color: #f4f4f4;
+  margin-right: 10px;
+}
